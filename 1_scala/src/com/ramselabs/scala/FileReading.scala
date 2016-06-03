@@ -1,0 +1,12 @@
+package com.ramselabs.scala
+
+import scala.io.Source
+
+object FileReading {
+  def main(args: Array[String]) = {
+    Source.fromFile("scala_testfile.txt").getLines().
+    foreach(println);
+
+  }
+
+}
